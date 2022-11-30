@@ -1,0 +1,19 @@
+{
+  "name": "auth_nodejs",
+  "version": "1.0.0",
+  "description": "Simple API Authentication backend using Nodejs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandeep Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20"
+  }
+}
